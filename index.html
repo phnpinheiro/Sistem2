@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistem2 Informática — Software house em Oliveira–MG</title>
+  <meta name="description" content="Software house de Oliveira–MG. Sistemas de gestão e emissão fiscal (Web S2), chatbot de atendimento (Chat S2) e soluções por segmento, com suporte local e rápido.">
+  <meta name="theme-color" content="#d3161c">
+  <meta property="og:title" content="Sistem2 Informática — Software house em Oliveira–MG">
+  <meta property="og:description" content="Sistemas de gestão, emissão fiscal e atendimento automatizado, com suporte local e rápido.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sistem2 Informática",
+    "url": "http://sistem2.com.br",
+    "email": "comercial@sistem2.com.br",
+    "telephone": "+55-37-3331-4163",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Francisco Cambraia Campos, 135, Loja 1",
+      "addressLocality": "Oliveira",
+      "addressRegion": "MG",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.4A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></symbol>
+  <symbol id="i-funnel" viewBox="0 0 24 24"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M5 20V11M11 20V4M17 20v-7M3 20h18"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 17a8.5 8.5 0 1 1 16 0"/><path d="M12 17l4-5"/></symbol>
+  <symbol id="i-store" viewBox="0 0 24 24"><path d="M3 9l1.5-5h15L21 9a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 12v8h14v-8"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15"/><path d="M5 19l8-8"/></symbol>
+  <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M7 3v8M4.5 3v5a2.5 2.5 0 0 0 5 0V3M7 11v10M17 3c-2 2-3 5-3 8h3v10"/></symbol>
+  <symbol id="i-cross" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></symbol>
+  <symbol id="i-paw" viewBox="0 0 24 24"><circle cx="6" cy="11" r="2"/><circle cx="10" cy="6.5" r="2"/><circle cx="14.5" cy="6.5" r="2"/><circle cx="18.5" cy="11" r="2"/><path d="M8 18c0-3 2-5 4-5s4 2 4 5-2 3-4 3-4 0-4-3z"/></symbol>
+  <symbol id="i-pos" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 21V10l6 4v-4l6 4V6h3v15z"/><path d="M3 21h18"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8z"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 0 0 4.9 4.9L21 13l-8 8-3-3 8-8z" transform="translate(-1.5 -1.5)"/><path d="M3 21l5-5"/></symbol>
+</svg>
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Sistem2 Informática — página inicial">
+      <img src="assets/img/logo-mark.svg" alt="" width="52" height="35">
+      <span class="brand-text">
+        <span class="brand-name">Sistem<b>2</b></span>
+        <span class="brand-sub">informática</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+    <nav class="nav" id="menu" aria-label="Principal">
+      <ul>
+        <li><a href="index.html#produtos">Produtos</a></li>
+        <li><a href="index.html#setores">Setores</a></li>
+        <li><a href="suporte.html" >Suporte</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+      </ul>
+      <a class="btn btn-primary" href="index.html#contato">Fale com o comercial</a>
+    </nav>
+  </div>
+</header>
+
+
+<main id="conteudo">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-intro">
+        <h1 id="hero-title">Sistemas de gestão com <em>suporte que responde rápido.</em></h1>
+        <p class="hero-lead">Há mais de <span class="tbd">[21+]</span> anos a Sistem2 desenvolve e implanta sistemas de gestão, emissão de nota fiscal e atendimento automatizado para empresas de Oliveira–MG e de todo o Brasil.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato">Solicitar proposta</a>
+          <a class="btn btn-ghost" href="#produtos">Conhecer os produtos</a>
+        </div>
+        <ul class="hero-proof">
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Mais de 120 empresas atendidas</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Suporte local</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Proposta sob medida</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="stage" aria-label="Exemplo: atendimento automatizado e emissão de nota fiscal funcionando juntos">
+          <div class="stage-card chat">
+            <h2><span class="dot"></span>Chat S2 · atendimento</h2>
+            <div class="bubble in">Oi! Preciso da segunda via de uma nota.</div>
+            <div class="bubble out">Claro! Vou direcionar você ao setor fiscal.</div>
+            <div class="bubble sys">Triagem concluída · encaminhado a um atendente</div>
+          </div>
+          <div class="stage-card nfe">
+            <h2><span class="dot"></span>Web S2 · nota fiscal</h2>
+            <div class="nf-row"><span>NF-e nº 000.482</span><span class="badge"><svg class="i" width="14" height="14" aria-hidden="true"><use href="#i-check"/></svg>Autorizada</span></div>
+            <div class="nf-row"><span>Estoque atualizado</span><span>Automático</span></div>
+            <div class="nf-row"><span>Relatório do dia</span><span>Pronto</span></div>
+          </div>
+          <div class="stage-link" aria-hidden="true"><svg class="i"><use href="#i-link"/></svg></div>
+        </div>
+        <p class="stage-note">Ilustração dos dois sistemas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Produtos principais ===== -->
+  <section class="band on-dark" id="produtos" aria-labelledby="produtos-title">
+    <div class="wrap band-pad">
+      <div class="section-head center">
+        <h2 id="produtos-title">Dois sistemas. Uma solução completa.</h2>
+        <p>Atenda melhor seus clientes com o Chat S2 e organize a gestão e a emissão fiscal com o Web S2.</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <svg class="i product-icon" aria-hidden="true"><use href="#i-chat"/></svg>
+          <h3>Chat <b>S2</b></h3>
+          <p class="kind">Chatbot com triagem e atendimento</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-funnel"/></svg><div><strong>Triagem e classificação</strong><span>Entende o motivo do contato e organiza a fila.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-chat"/></svg><div><strong>Atendimento inicial automático</strong><span>Responde dúvidas frequentes sem esperar.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-user"/></svg><div><strong>Atendimento final com pessoa</strong><span>Passa para a sua equipe quando precisa de um humano.</span></div></li>
+          </ul>
+          <a class="btn btn-primary" href="#contato" data-interest="Chat S2">Pedir proposta do Chat S2</a>
+        </article>
+
+        <div class="chain" aria-hidden="true"><span><svg class="i"><use href="#i-link"/></svg></span></div>
+
+        <article class="product">
+          <svg class="i product-icon" aria-hidden="true"><use href="#i-doc"/></svg>
+          <h3>Web <b>S2</b></h3>
+          <p class="kind">ERP completo para gestão e emissão de nota fiscal</p>
+          <ul>
+            <li><svg class="i" aria-hidden="true"><use href="#i-doc"/></svg><div><strong>Emissão de nota fiscal</strong><span>Emita e acompanhe seus documentos fiscais em um só lugar.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-box"/></svg><div><strong>Gestão do negócio</strong><span>Vendas, estoque e financeiro organizados no mesmo sistema.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-chart"/></svg><div><strong>Relatórios e indicadores</strong><span>Dados claros para decidir com mais segurança.</span></div></li>
+          </ul>
+          <a class="btn btn-primary" href="#contato" data-interest="Web S2">Pedir proposta do Web S2</a>
+        </article>
+      </div>
+
+      <p class="products-note">Cada empresa recebe uma proposta única. Você usa o Chat S2 e o Web S2 juntos ou separados, e podemos avaliar integrações caso a caso.</p>
+    </div>
+  </section>
+
+  <!-- ===== Soluções por segmento ===== -->
+  <section class="section light" id="solucoes" aria-labelledby="solucoes-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="solucoes-title">Um sistema para cada tipo de negócio</h2>
+        <p>Além do Web S2 e do Chat S2, a Sistem2 implanta soluções prontas para segmentos específicos. Nós fazemos a implantação, o treinamento e o suporte.</p>
+      </div>
+
+      <div class="solutions">
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-store"/></svg>
+          <h3>Gestão para varejo e serviços</h3>
+          <p>Vendas, estoque, financeiro e nota fiscal para lojas, prestadores de serviço e MEI.</p>
+          <span class="for">Para lojas, comércios e prestadores de serviço</span>
+        </article>
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-leaf"/></svg>
+          <h3>Gestão para o produtor rural</h3>
+          <p>Controle da propriedade e emissão de documentos fiscais feitos para a realidade do campo.</p>
+          <span class="for">Para produtores, fazendas e cooperativas</span>
+        </article>
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-utensils"/></svg>
+          <h3>Gestão para bares e restaurantes</h3>
+          <p>Da cozinha ao delivery, os pedidos e o caixa ficam no mesmo sistema.</p>
+          <span class="for">Para bares, restaurantes, pizzarias e delivery</span>
+        </article>
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-cross"/></svg>
+          <h3>Gestão para clínicas e consultórios</h3>
+          <p>Agenda, prontuários, consultas e financeiro organizados para o dia a dia da saúde.</p>
+          <span class="for">Para clínicas, consultórios e profissionais da saúde</span>
+        </article>
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-paw"/></svg>
+          <h3>Gestão para pet shops e veterinárias</h3>
+          <p>Cadastro de animais, serviços, estoque e vendas em um sistema só.</p>
+          <span class="for">Para pet shops e clínicas veterinárias</span>
+        </article>
+        <article class="solution">
+          <svg class="i ico" aria-hidden="true"><use href="#i-pos"/></svg>
+          <h3>PDV com NFC-e e venda offline</h3>
+          <p>Frente de caixa que continua vendendo quando a internet cai e sincroniza depois.</p>
+          <span class="for">Para lojas e balcões com alto movimento</span>
+        </article>
+        <article class="solution soon">
+          <span class="soon-tag">Em breve</span>
+          <svg class="i ico" aria-hidden="true"><use href="#i-calendar"/></svg>
+          <h3>Agenda para serviços</h3>
+          <p>Agendamento e gestão para serviços profissionais, educação e bem-estar.</p>
+        </article>
+        <article class="solution wide">
+          <svg class="i ico" aria-hidden="true"><use href="#i-factory"/></svg>
+          <h3>Automação comercial e industrial</h3>
+          <p>Desde o início, a Sistem2 desenvolve soluções de automação para fábricas e comércios, com o cuidado de não gerar grandes impactos na rotina da empresa durante a informatização.</p>
+          <span class="for">Projetos sob medida, avaliados caso a caso</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Setores ===== -->
+  <section class="section tint" id="setores" aria-labelledby="setores-title">
+    <div class="wrap sectors">
+      <div class="section-head" style="margin-bottom:0">
+        <h2 id="setores-title">Experiência em vários setores</h2>
+        <p style="color:var(--ink-soft)">Já colaboramos com mais de 120 organizações. Se o seu setor não aparece na lista, fale com a gente: avaliamos a melhor solução para o seu caso.</p>
+      </div>
+      <div>
+        <ul class="sector-list">
+          <li class="on">Fábricas</li>
+          <li class="on">Vestuário</li>
+          <li class="on">Peças automotivas</li>
+          <li class="on">Materiais de construção</li>
+          <li class="on">Joalherias</li>
+          <li class="on">Agro-veterinárias</li>
+          <li>Varejo em geral</li>
+          <li>Bares e restaurantes</li>
+          <li>Clínicas e consultórios</li>
+          <li>Pet shops</li>
+          <li>Produtores rurais</li>
+          <li>Prestadores de serviço</li>
+        </ul>
+        <p class="legend"><span><i style="background:var(--red)"></i>Setores com clientes atendidos</span><span><i style="background:var(--line)"></i>Soluções disponíveis</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Como trabalhamos ===== -->
+  <section class="section light" aria-labelledby="como-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="como-title">Da primeira conversa ao sistema funcionando</h2>
+        <p>Um processo simples, com a mesma equipe acompanhando você do começo ao fim.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Conversa e proposta</h3><p>Entendemos a rotina da sua empresa e montamos uma proposta única.</p></li>
+        <li><h3>Implantação</h3><p>Configuramos o sistema e migramos seus dados, sem parar sua operação.</p></li>
+        <li><h3>Treinamento</h3><p>Sua equipe aprende a usar o sistema na prática.</p></li>
+        <li><h3>Suporte contínuo</h3><p>Pós-venda qualificado, com atendimento local e rápido quando você precisar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Atendimento ===== -->
+  <section class="band on-dark" id="atendimento" aria-labelledby="atend-title">
+    <div class="wrap band-pad">
+      <div class="support">
+        <div>
+          <h2 id="atend-title">Suporte de quem fica perto de você</h2>
+          <p style="font-size:1.15rem;opacity:.9">Quando algo para, você não precisa abrir chamado em fila de call center. Nossa equipe conhece o seu sistema e responde pelo canal que for mais rápido.</p>
+          <ul class="support-list">
+            <li><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg><div><strong>Equipe local em Oliveira–MG</strong><span>Atendimento próximo, com quem conhece a sua empresa.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-monitor"/></svg><div><strong>Acesso remoto</strong><span>Resolvemos muitos problemas direto na sua tela, sem deslocamento.</span></div></li>
+            <li><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg><div><strong>Plantão</strong><span>Canais de plantão para situações urgentes.</span></div></li>
+          </ul>
+          <a class="btn btn-light" href="suporte.html">Ir para a página de suporte</a>
+        </div>
+        <div class="contact-card">
+          <h3>Canais de atendimento</h3>
+          <div class="phone-group">
+            <h4>Comercial</h4>
+            <a href="tel:+553733314163">(37) 3331-4163</a>
+            <a href="tel:+5537999811762">(37) 99981-1762</a>
+          </div>
+          <div class="phone-group">
+            <h4>Suporte</h4>
+            <a href="tel:+553733314163">(37) 3331-4163</a>
+            <a href="tel:+5537999314163">(37) 99931-4163</a>
+            <a href="tel:+5537999850730">(37) 99985-0730</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Clientes (TBD) ===== -->
+  <section class="section light" id="clientes" aria-labelledby="clientes-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="clientes-title">Quem trabalha com a Sistem2</h2>
+        <p><span class="tbd">[TBD]</span> Logos e depoimentos de clientes entram aqui assim que forem autorizados.</p>
+      </div>
+      <div class="logos">
+        <div class="logo-slot"><span class="tbd">[LOGO DO CLIENTE 1]</span></div>
+        <div class="logo-slot"><span class="tbd">[LOGO DO CLIENTE 2]</span></div>
+        <div class="logo-slot"><span class="tbd">[LOGO DO CLIENTE 3]</span></div>
+        <div class="logo-slot"><span class="tbd">[LOGO DO CLIENTE 4]</span></div>
+      </div>
+      <div class="quotes">
+        <blockquote class="quote" style="margin:0">
+          <p><span class="tbd">[DEPOIMENTO DO CLIENTE 1]</span></p>
+          <footer><span class="tbd">[NOME, CARGO, EMPRESA]</span></footer>
+        </blockquote>
+        <blockquote class="quote" style="margin:0">
+          <p><span class="tbd">[DEPOIMENTO DO CLIENTE 2]</span></p>
+          <footer><span class="tbd">[NOME, CARGO, EMPRESA]</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sobre ===== -->
+  <section class="section tint" id="sobre" aria-labelledby="sobre-title">
+    <div class="wrap about">
+      <div>
+        <h2 id="sobre-title">Uma software house que cresce junto com o cliente</h2>
+        <p>A Sistem2 Informática é uma software house sediada em Oliveira–MG. Nasceu para atender a crescente demanda por produtos de automação comercial e industrial, sem causar grandes impactos no processo de informatização das empresas.</p>
+        <p>Essa fórmula de parceria se firmou ao longo dos anos. Hoje colaboramos com mais de 120 organizações em segmentos como fábricas, vestuário, peças automotivas, materiais de construção, joias e agro-veterinária.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b><span class="tbd">[21+]</span></b><span>anos de mercado</span></div>
+        <div class="fact"><b>120+</b><span>organizações atendidas em diversos segmentos</span></div>
+        <div class="fact"><b>Local</b><span>suporte e pós-venda feitos por quem conhece a sua operação</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contato ===== -->
+  <section class="section light" id="contato" aria-labelledby="contato-title">
+    <div class="wrap contact">
+      <div>
+        <h2 id="contato-title">Peça sua proposta</h2>
+        <p style="font-size:1.15rem;color:var(--ink-soft)">Conte o que a sua empresa precisa. O comercial responde com uma proposta feita para o seu caso.</p>
+        <address>
+          <span><svg class="i" width="18" height="18" aria-hidden="true" style="display:inline;vertical-align:-3px;margin-right:.5rem;color:var(--red)"><use href="#i-phone"/></svg><a href="tel:+553733314163">(37) 3331-4163</a> · <a href="tel:+5537999811762">(37) 99981-1762</a></span>
+          <span><svg class="i" width="18" height="18" aria-hidden="true" style="display:inline;vertical-align:-3px;margin-right:.5rem;color:var(--red)"><use href="#i-mail"/></svg><a href="mailto:comercial@sistem2.com.br">comercial@sistem2.com.br</a></span>
+          <span><svg class="i" width="18" height="18" aria-hidden="true" style="display:inline;vertical-align:-3px;margin-right:.5rem;color:var(--red)"><use href="#i-pin"/></svg>Rua Francisco Cambraia Campos, 135, Loja 1, Oliveira – MG</span>
+        </address>
+      </div>
+
+      <form class="card" id="contact-form" novalidate>
+        <div class="field-row">
+          <div class="field"><label for="nome">Seu nome</label><input id="nome" name="nome" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" type="text" autocomplete="organization" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="telefone">Telefone ou WhatsApp</label><input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+          <div class="field">
+            <label for="interesse">Tenho interesse em</label>
+            <select id="interesse" name="interesse" required>
+              <option value="">Selecione</option>
+              <option>Web S2 (ERP e nota fiscal)</option>
+              <option>Chat S2 (chatbot)</option>
+              <option>Web S2 e Chat S2 juntos</option>
+              <option>Sistema para o meu segmento</option>
+              <option>Automação comercial ou industrial</option>
+              <option>Outro assunto</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" placeholder="Conte brevemente o que a sua empresa precisa."></textarea></div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
+          <button class="btn btn-ghost" type="button" id="send-email">Enviar por e-mail</button>
+        </div>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-hint">Ao enviar, abrimos o seu WhatsApp ou e-mail com a mensagem pronta. Nada fica guardado neste site.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Sistem2 Informática — página inicial">
+          <img src="assets/img/logo-mark.svg" alt="" width="52" height="35">
+          <span class="brand-text">
+            <span class="brand-name">Sistem<b>2</b></span>
+            <span class="brand-sub">informática</span>
+          </span>
+        </a>
+        <p class="about-line">Software house de Oliveira–MG. Sistemas de gestão, emissão fiscal e atendimento automatizado para empresas de todos os portes.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/sistem2informatica" target="_blank" rel="noopener" aria-label="Instagram da Sistem2"><svg class="i" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+          <a href="https://www.facebook.com/sistem2informatica" target="_blank" rel="noopener" aria-label="Facebook da Sistem2"><svg class="i" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h2>Navegação</h2>
+        <ul>
+          <li><a href="index.html#produtos">Produtos</a></li>
+          <li><a href="index.html#solucoes">Soluções por segmento</a></li>
+          <li><a href="index.html#setores">Setores atendidos</a></li>
+          <li><a href="suporte.html">Suporte e acesso remoto</a></li>
+          <li><a href="index.html#sobre">Sobre a Sistem2</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Fale com a gente</h2>
+        <ul>
+          <li><a href="tel:+553733314163">(37) 3331-4163</a></li>
+          <li><a href="tel:+5537999811762">(37) 99981-1762</a></li>
+          <li><a href="mailto:comercial@sistem2.com.br">comercial@sistem2.com.br</a></li>
+          <li>Rua Francisco Cambraia Campos, 135, Loja 1<br>Oliveira – MG</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Sistem2 Informática. Todos os direitos reservados.</span>
+      <span>CNPJ <span class="tbd">[CNPJ]</span> · <a href="#">Política de privacidade</a> <span class="tbd">[LINK]</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  /* Pré-seleciona o interesse ao clicar em "Pedir proposta" nos cards de produto */
+  document.querySelectorAll("[data-interest]").forEach(function (a) {
+    a.addEventListener("click", function () {
+      var map = { "Chat S2": "Chat S2 (chatbot)", "Web S2": "Web S2 (ERP e nota fiscal)" };
+      var sel = document.getElementById("interesse");
+      if (sel) sel.value = map[a.getAttribute("data-interest")] || "";
+    });
+  });
+</script>
+</body>
+</html>
